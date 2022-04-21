@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haus-Auto Slider</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/9753036172.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <div class="container">
+   
+        <div id="haus_container">
+          <img id="bmwSize" src="bmw.webp" alt="">
+          <div class="car-info">
+          <p>BMW</p>
+          <p>2019</p>
+          <p>3 Series</p>
+        </div>
+
+        </div>
+    
+        <div id="car_container">
+            <img src="haus.jpg" alt="">
+            <div class="haus-info">
+                <p>Düsseldorf</p>
+                <p>4 Zimmer</p>
+                <p>1.500.000€</p>
+              </div>
+        </div>
+      
+      </div>
+    </div>
+    <div class="changeButton">
+        <button id="carBtn" onclick="showCar()"><i class="fa-solid fa-car"></i>  Car</button> 
+        <button id="hausBtn" onclick="showHaus()"><i class="fa-solid fa-house-chimney"></i>  Haus</button> 
+    <script src="app.js"></script>
+  </body>
+</html>
